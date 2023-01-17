@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+#logo img {
+    width: 80%;
+    max-width: 400px;
+}
+
+header .linker {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #1e10b1;
+    margin: 5px;
+    padding: 5px;
+}
+
+header a:hover{
+    background-color: cyan;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+h1{
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1::first-letter{
+    font-size: 60px;
+}
+
+section{
+    margin-top: 20px;
+}
+
+ul{
+    list-style-type: square;
+    margin-left: 40px;
+}
+
+button{
+    margin: 8px;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+}
+
+button:hover{
+    background: cyan;
+    box-shadow: 3px 3px 3px black;
+}
+
+iframe{
+    width: 100%;
+    height: 450px;
+    display: none;
+}
+
+.socialmedia a {
+    margin: 10px;
+    width: 32px;
+}
+
+footer{
+    margin: 20px 0 0 0;
+    background: cyan;
+    padding: 5px;
+    text-align: center;
+}

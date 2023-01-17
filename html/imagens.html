@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+
+    <style>
+        #imagens {
+            margin: auto;
+            text-align: center;
+        }
+        #imagens img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="imagens"></div>
+
+    <script>
+        let divImg = document.getElementById("imagens")
+        for(let i = 0; i < 79;  i++){
+            let div1 = document.createElement("div")
+            let img = document.createElement("img")
+            img.setAttribute("src", `../img/${i+1}.jpg`)
+            div1.appendChild(img)
+            divImg.appendChild(div1)
+        }
+    </script>
+</body>
+</html>
