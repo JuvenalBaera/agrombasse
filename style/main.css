@@ -31,6 +31,10 @@ header .linker {
 a{
     text-decoration: none;
     color: #1e10b1;
+}
+a:hover{text-decoration: underline;}
+
+header a{
     margin: 5px;
     padding: 5px;
 }
@@ -41,10 +45,6 @@ header a:hover{
     font-size: 20px;
     text-decoration: none;
     color: #000;
-}
-
-a:hover{
-    text-decoration: underline;
 }
 
 main {
@@ -98,21 +98,28 @@ iframe{
     display: none;
 }
 
-.socialmedia a {
-    margin: 10px;
-    width: 32px;
-}
-
 footer{
     margin: 20px 0 0 0;
     background-image: linear-gradient(to bottom, white, #22ffff);
     padding: 20px 0 0px 0;
     text-align: center;
 }
+.socialmedia a:hover{text-decoration: none;}
+footer p{margin-bottom: 12px;}
+#slogam{padding-bottom: 10px;}
 
-footer p{
-    margin-bottom: 12px;
-}
-#slogam{
-    padding-bottom: 10px;
+
+@media screen and (max-width: 500px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    header .linker {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #logo img {width: 100%;}
 }
