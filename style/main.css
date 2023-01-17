@@ -30,9 +30,13 @@ header .linker {
 
 a{
     text-decoration: none;
-    color: #1e10b1;
+    color: #13d813;
+    border-radius: 5px;
 }
-a:hover{text-decoration: underline;}
+a:hover{
+    color: #000;
+    background-color: #10681096;
+}
 
 header a{
     margin: 5px;
@@ -40,11 +44,8 @@ header a{
 }
 
 header a:hover{
-    background-color: cyan;
-    border-radius: 5px;
     font-size: 20px;
     text-decoration: none;
-    color: #000;
 }
 
 main {
@@ -91,12 +92,12 @@ dd{
     border: none;
     box-shadow: 1px 1px 3px black;
     text-align: center;
-    background: #00b8b8;
+    background: #3bd33b;
 }
 
 .botoes:hover{
     text-decoration: none;
-    background: cyan;
+    background: #10681096;
     box-shadow: 3px 3px 3px black;
 }
 
@@ -108,12 +109,15 @@ iframe{
 
 footer{
     margin: 20px 0 0 0;
-    background-image: linear-gradient(to bottom, white, #22ffff);
+    background-image: linear-gradient(to bottom, white, #fff, #3bd33bab);
     padding: 20px 0 0px 0;
     text-align: center;
 }
 .socialmedia a{margin: 5px;}
-.socialmedia a:hover{text-decoration: none;}
+.socialmedia a:hover{
+    text-decoration: none;
+    background: none;
+}
 footer p{margin-bottom: 12px;}
 #slogam{padding-bottom: 10px;}
 
