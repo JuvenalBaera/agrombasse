@@ -67,14 +67,13 @@ h1, h2{margin-bottom: 10px;}
 
 ul{
     list-style-type: disc;
-    margin-left: 38px;
+    margin-left: 20px;
 }
 dt{
     font-weight: bolder;
     margin: 10px 0 10px 0;
 }
-dt li{margin-left: 20px;}
-dd{margin-left: 45px;}
+dd{margin-left: 25px;}
 
 .botoes{
     display: inline-block;
